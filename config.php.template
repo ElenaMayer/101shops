@@ -1,0 +1,14 @@
+<?php
+
+const TITLE = '101shops';
+const MAIN_DOMAIN = 'http://101shops/';
+
+const MYSQL_HOST = 'localhost';
+const MYSQL_USER = 'root';
+const MYSQL_POSSWORD = '1q2w3e';
+const MYSQL_DB = '101shops';
+
+const EMAIL_TO = 'help@101shops.ru';
+const EMAIL_FROM = 'help@101shops.ru';
+
+const REQUISITES = "ИП Измайлов Р.Э. ОГРН 308540621200046 ИНН 540696036951 г. Новосибирск, ул. Мичурина д.12";
