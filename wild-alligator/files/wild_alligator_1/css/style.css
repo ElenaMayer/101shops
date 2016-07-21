@@ -190,7 +190,7 @@ ul.benefits_2 { margin-left:40px; }
 
 .pay,.action_2 { margin-top:0; }
 .pay .nav-tabs { border-bottom:1px solid #C7C7C7; padding:0 0 30px; }
-.pay .nav-tabs>li,.pay .nav-tabs>li:hover;  .pay .nav-tabs>li:focus { margin-right:10px!important; }
+.pay .nav-tabs>li,.pay .nav-tabs>li:hover, .pay .nav-tabs>li:focus { margin-right:10px!important; }
 .pay .nav-tabs>li:last-child { margin-right:0; }
 .pay .tab-content .row,.action .row,.container>.navbar-header,header .container .row { margin:0; }
 .pay .tab-content .col-md-6 > div { min-height:120px; font-weight:400; padding:0 0 35px 50px; font-size:18px; color:#111; font-family:"Noto Sans"; margin:45px 0 0; line-height:1!important; position:relative; }
@@ -217,7 +217,7 @@ ul.benefits_2 { margin-left:40px; }
 .faq p { color:#fff; margin-top:15px; line-height:1.3!important; padding-left:25px; }
 
 
-.work_scheme hgroup { margin:36px 0 50px; }
+/*.work_scheme hgroup { margin:36px 0 50px; }*/
 .work_scheme .container .row { margin:0; }
 .work_scheme .container .col-md-8 .row { padding-left:50px; }
 .work_scheme .col-md-8 { padding:0 35px; }
@@ -303,7 +303,7 @@ ul.top_new_2 { margin:-20px 0 0; }
 	.top_new_scheme,.top_new_scheme ul li:first-child { margin-top:0; }
 	.wath .col-md-4 img { margin-right:0; }
 	.work_scheme .container .col-md-8 .row { padding-left:0; }
-	.work_scheme hgroup { margin:26px 0 25px; }
+	/*.work_scheme hgroup { margin:26px 0 25px; }*/
 	.rew .col-md-6 { padding-top:15px!important; }
 	.form_order h2 { font-size:19px!important; }
 	.form_order h2 span { font-size:11px; }
@@ -361,7 +361,7 @@ ul.top_new_2 { margin:-20px 0 0; }
 	.benefits ul li { min-height:initial; background-size:12%; }
 	.top_new h2 { font-size:45px; }
 	.pay .tab-content .row .col-md-6,.pay .tab-content .row .col-md-6:last-child { padding:0; }
-	.benefits ul.benefits_1 li:nth-child(2) { min-height:auto; }
+	/*.benefits ul.benefits_1 li:nth-child(2) { min-height:auto; }*/
 	ul.top_new_2 li:last-child { margin-top:0; margin-right:0; line-height:1!important; padding-top:10px; }
 	._form_header_right { width:40%; }
 }
@@ -450,7 +450,7 @@ ul.top_new_2 { margin:-20px 0 0; }
 	.modal_block_1 .form_order h2 span { font-size:28px; }
 	.modal_block_1 .form_order .order_price { font-size:95px; }
 	.action .container .col-md-8 img { margin-top:-1px; }
-	.order .col-md-4 img { min-height:auto; margin-top:24px; }
+	.order .col-md-4 img { margin-top:24px; }
 	select { background-image:url(../img/fl01_.png); }
 	header select { background-image:url(../img/fl01.png); }
 	.pay h2 { text-align:left; width:100%; padding-right:0; margin-left:25px; }

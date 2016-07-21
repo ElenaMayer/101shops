@@ -10,12 +10,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="js/etimer.js" ></script>
-<link rel="shortcut icon" href="img/favicon.ico">
-<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
-<link rel="stylesheet" href="css/colorbox.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/style.css">
+	<script src="js/etimer.js" ></script>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
+	<link rel="stylesheet" href="css/colorbox.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
 
   <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>    
  
