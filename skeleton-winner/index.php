@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/index.css" media="all">
     <link rel="stylesheet" type="text/css" href="fonts/roboto.css">
     <link href="css/ComebackerAlert.css" rel="stylesheet" type="text/css"/>
-
+    <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter38627605 = new Ya.Metrika({ id:38627605, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/38627605" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 </head>
 <body>
 <div id="openModal" class="modalDialog">
@@ -117,8 +117,8 @@
       <div name="zakaz"></div>
       <div class="main"> <img src="img/ulysse-nardin.png" style="width: 35%; height: auto; margin-bottom: 25%;" border="0" align="left">
         <div id="text1">СПЕШИТЕ! ИЗ 200 <x1>КОМПЛЕКТОВ ОСТАЛОСЬ</x1> ВСЕГО <x2>11</x2></div>
-        <div id="text2">СТАРАЯ ЦЕНА: <b><strike>9650</strike>р.</b></div>
-        <div id="text3">НОВАЯ ЦЕНА: <b>2890 р.</b></div>
+        <div id="text2">СТАРАЯ ЦЕНА: <b><strike>7970</strike>р.</b></div>
+        <div id="text3">НОВАЯ ЦЕНА: <b>2390 р.</b></div>
         <br>
         <br>
         <a href="#openModal" class="button"></a>
@@ -177,8 +177,8 @@
     <div id="block_2">
       <div class="main"> <img src="img/ulysse-nardin.png" style="width: 35%; height: auto; margin-bottom: 25%;" border="0" align="left">
         <div id="text1">СПЕШИТЕ! ИЗ 200 <x1>КОМПЛЕКТОВ ОСТАЛОСЬ</x1> ВСЕГО <x2>11</x2></div>
-        <div id="text2">СТАРАЯ ЦЕНА: <b><strike>9650</strike>р.</b></div>
-        <div id="text3">НОВАЯ ЦЕНА: <b>2890 р.</b></div>
+        <div id="text2">СТАРАЯ ЦЕНА: <b><strike>7970</strike>р.</b></div>
+        <div id="text3">НОВАЯ ЦЕНА: <b>2390 р.</b></div>
         <br>
         <br>
         <a href="#openModal" class="button"></a>
