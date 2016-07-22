@@ -236,8 +236,8 @@
     <div id="block_2">
       <div class="main"> <img src="img/ulysse-nardin.png" style="width: 35%; height: auto; margin-bottom: 25%;" border="0" align="left">
         <div id="text1">СПЕШИТЕ! ИЗ 200 <x1>КОМПЛЕКТОВ ОСТАЛОСЬ</x1> ВСЕГО <x2>11</x2></div>
-        <div id="text2">СТАРАЯ ЦЕНА: <b><strike>9650</strike>р.</b></div>
-        <div id="text3">НОВАЯ ЦЕНА: <b>2890 р.</b></div>
+        <div id="text2">СТАРАЯ ЦЕНА: <b><strike>7970</strike>р.</b></div>
+        <div id="text3">НОВАЯ ЦЕНА: <b>2390 р.</b></div>
         <br>
         <br>
         <a href="#openModal" class="button"></a>
@@ -254,8 +254,6 @@
           <li><img src="img/05d.png" border="0" align="left">Мы работаем
               без предоплаты. Вы оплачиваете Посылку только при получении
             в Ваши руки в Отделении Почты.</li>
-          <li><img src="img/05d.png" border="0" align="left">С каждым заказом
-            мы отправляем ценный подарок.</li>
           <li><img src="img/05d.png" border="0" align="left">Доставим в ЛЮБОЙ
               регион.</li>
           <li><img src="img/05d.png" border="0" align="left">Надежная
