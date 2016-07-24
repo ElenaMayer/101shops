@@ -13,7 +13,6 @@ class Order {
             error_log($date . " Ошибка подключения (" . $mysqli->connect_errno . ") " . $mysqli->connect_error ."\r\n", 3, 'error.log');
             return false;
         }
-
         $orderId = date('YmdHis', time());
         $callMe = isset($_POST['callme']) ? '1' : '0';
         if (!$mysqli->query(

@@ -49,8 +49,8 @@
                     alert('Введите Ваш номер телефона!');return false
                 }
                 return true;">
-                <input style="width:70%; padding:10px;margin-bottom: 20px;" name="name" value="" type="text" placeholder="Введите Ваше Имя" />
-                <input style="width:70%; padding:10px;" name="phone" value="" type="text" placeholder="Введите Ваш Телефон" />
+                <input style="width:75%; padding:10px;margin-bottom: 20px;" name="name" value="" type="text" placeholder="Введите Ваше Имя" />
+                <input style="width:75%; padding:10px;" name="phone" value="" type="text" placeholder="Введите Ваш Телефон" />
                 <input name="item_name" value="Skeleton Winner" type="hidden"/>
                 <input name="item_price" value="2390" type="hidden"/>
                 <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
@@ -85,7 +85,7 @@
                 &#10004;&emsp;Механика с автоподзаводом<br>
                 &#10004;&emsp;Гарантия 12 месяцев<br>
                 &#10004;&emsp;Работаем по всей стране!<br>
-                &#10004;&emsp;Сезонная Акция! Скидка 70%</div>
+                &#10004;&emsp;Сезонная Акция! Скидка 75%</div>
         </div>
     </div>
 
@@ -120,15 +120,15 @@
         </div>
     </center>
 
-    <h1>НЕВЕРОЯТНАЯ АКЦИОННАЯ СКИДКА - 70%</h1>
+    <h1>НЕВЕРОЯТНАЯ АКЦИОННАЯ СКИДКА - 75%</h1>
 
-    <h2>ЗАКАЖИТЕ ЧАСЫ ВАШЕЙ МЕЧТЫ СО СКИДКОЙ 70%</h2>
+    <h2>ЗАКАЖИТЕ ЧАСЫ ВАШЕЙ МЕЧТЫ СО СКИДКОЙ 75%</h2>
     <div id="block_2">
         <div name="zakaz"></div>
         <div class="main">
             <img src="img/ulysse-nardin.png" style="width: 35%; height: auto; margin-bottom: 20%;" border="0" align="left">
             <div id="text1">СПЕШИТЕ! ИЗ 200 <x1>КОМПЛЕКТОВ ОСТАЛОСЬ</x1> ВСЕГО <x2>11</x2></div>
-            <div id="text2">СТАРАЯ ЦЕНА: <b><strike>7970 р.</strike></b></div>
+            <div id="text2">СТАРАЯ ЦЕНА: <b><strike>9560 р.</strike></b></div>
             <div id="text3">НОВАЯ ЦЕНА: <b>2390 р.</b></div>
             <br>
             <a href="#openModal" class="button"></a>
@@ -186,11 +186,11 @@
         </div>
     </div>
 
-    <h2>ЗАКАЖИТЕ ЧАСЫ ВАШЕЙ МЕЧТЫ СО СКИДКОЙ 70%</h2>
+    <h2>ЗАКАЖИТЕ ЧАСЫ ВАШЕЙ МЕЧТЫ СО СКИДКОЙ 75%</h2>
     <div id="block_2">
         <div class="main"> <img src="img/ulysse-nardin.png" style="width: 35%; height: auto; margin-bottom: 20%;" border="0" align="left">
             <div id="text1">СПЕШИТЕ! ИЗ 200 <x1>КОМПЛЕКТОВ ОСТАЛОСЬ</x1> ВСЕГО <x2>11</x2></div>
-            <div id="text2">СТАРАЯ ЦЕНА: <b><strike>7970 р.</strike></b></div>
+            <div id="text2">СТАРАЯ ЦЕНА: <b><strike>9560 р.</strike></b></div>
             <div id="text3">НОВАЯ ЦЕНА: <b>2390 р.</b></div>
             <br>
             <a href="#openModal" class="button"></a>
@@ -250,11 +250,11 @@
         </div>
     </div>
 
-    <h2>ЗАКАЖИТЕ ЧАСЫ ВАШЕЙ МЕЧТЫ СО СКИДКОЙ 70%</h2>
+    <h2>ЗАКАЖИТЕ ЧАСЫ ВАШЕЙ МЕЧТЫ СО СКИДКОЙ 75%</h2>
     <div id="block_2">
         <div class="main"> <img src="img/ulysse-nardin.png" style="width: 35%; height: auto; margin-bottom: 20%;" border="0" align="left">
             <div id="text1">СПЕШИТЕ! ИЗ 200 <x1>КОМПЛЕКТОВ ОСТАЛОСЬ</x1> ВСЕГО <x2>11</x2></div>
-            <div id="text2">СТАРАЯ ЦЕНА: <b><strike>7970 р.</strike></b></div>
+            <div id="text2">СТАРАЯ ЦЕНА: <b><strike>9560 р.</strike></b></div>
             <div id="text3">НОВАЯ ЦЕНА: <b>2390 р.</b></div>
             <br>
             <a href="#openModal" class="button"></a>
@@ -272,7 +272,7 @@
                 <li>&#10004;&emsp;Доставим в ЛЮБОЙ регион.</li>
                 <li>&#10004;&emsp;Надежная упаковка, способная уберечь ваш заказ от повреждений (картонные коробки, воздушно-пузырьковая (пузырчатая) пленка, пенопласт).</li>
                 <li>&#10004;&emsp;Быстрая доставка, 5-10 дней (зависит от региона).</li>
-                <li>&#10004;&emsp;Летняя Скидка: -70% на часы Skeleton Winner.</li>
+                <li>&#10004;&emsp;Летняя Скидка: -75% на часы Skeleton Winner.</li>
                 <li>&#10004;&emsp;Гарантия 12 месяцев с момента получения.</li>
                 <li>&#10004;&emsp;Гарантия возврата денег, если часы не понравятся.</li>
                 <li>&#10004;&emsp;Дорогие часы вызывают доверие у банковских работников и помогают проще получить кредит.</li>
