@@ -23,18 +23,18 @@ h2 { text-align: center; font-size: 200%; color: #f1aa24; }
 #text1 { text-align: center; color: rgb(218, 165, 32); font-size: 140%; }
 #text1 x1 { font-size: 75%; }
 #text1 x2 { color: rgb(255, 255, 255); }
-#text2 { text-align: center; color: rgb(178, 34, 34); font-size: 110%; margin-top: 5%; }
+#text2 { text-align: center; color: rgb(178, 34, 34); font-size: 110%; margin-top: 3%; }
 #text2 b { font-size: 180%; }
 #text3 { text-align: center; color: rgb(255, 255, 0); font-size: 110%; margin-top: 3%; }
-#text4 { text-align: center; font-size: 100%; margin-top: 0%; }
+#text4 { text-align: center; font-size: 100%; margin-top: 0%; padding-top: 15px;}
 #text5 { font-size: 90%; position: absolute; width: 22%; height: 32%; text-align: center; margin-left: 8%; background: transparent url('../img/4987984.png') no-repeat scroll left 10px top / 100% auto; }
-#text5 b { font-size: 150%; }
-#text3 b { font-size: 300%; }
+#text5 b { font-size: 150%; font-weight: normal}
+#text3 b { font-size: 300%; font-weight: normal}
 .button { margin-left: 0%; }
 .button { background: transparent url('../img/11.jpg') no-repeat scroll 50% 50%; display: block; width: 400px; height: 100px; transition-duration: 0.3s; }
 .button:hover { transition-duration: 0.3s; background: transparent url('../img/22.jpg') no-repeat scroll 50% 50%; }
 #block_2 .button { margin-left: 45%; }
-#block_2 .main iframe { margin-top: 5%; width: 60%; height: auto; }
+#block_2 .main iframe { margin-top: 2%; width: 60%; height: auto; }
 #block_4 .main p span { color: rgb(255, 215, 0); }
 #block_5 .main p span { color: rgb(255, 215, 0); }
 #text10 { margin-bottom: 6%; }
@@ -258,4 +258,10 @@ h2 { text-align: center; font-size: 200%; color: #f1aa24; }
 h2.video,
 h2.photo {
 	padding-top: 70px;
+}
+h4.present {
+	padding: 20px 0;
+}
+h4.shipping {
+	padding-top: 25px;
 }

@@ -16,7 +16,10 @@ class Order {
 
         $orderId = date('YmdHis', time());
         $callMe = isset($_POST['callme']) ? '1' : '0';
-        if (!$mysqli->query("INSERT INTO `order`(`name`, `phone`, `domain`, `order_id`, `call_me`) VALUES ('" . $_POST['name']. "', '" . $_POST['phone']. "', '" . $_SERVER['HTTP_HOST']. "', '" .  $orderId. "', '" . $callMe. "')")) {
+        if (!$mysqli->query(
+            "INSERT INTO `order`(`name`, `phone`, `item_name`, `order_id`, `item_price`, `time_zone`, `call_me`) 
+              VALUES ('" . $_POST['name']. "', '" . $_POST['phone']. "', '" . $_POST['item_name']. "', '" .  $orderId. "', '" . $_POST['item_price']. "', '" . $_POST['client_time_zone']. "', '" . $callMe. "')"
+        )) {
             error_log($date . " Не удалось записать в БД: (" . $mysqli->errno . ") " . $mysqli->error."\r\n", 3, 'error.log');
             $mysqli->close();
             return false;
@@ -28,10 +31,14 @@ class Order {
 
     public static function sendMailWithOrder() {
         if (isset($_POST['callme']))
-            $subject = 'ПЕРЕЗВОНИТЕ МНЕ с сайта ' . $_SERVER['HTTP_HOST'];
+            $subject = 'ПЕРЕЗВОНИТЕ МНЕ с сайта ' . MAIN_DOMAIN;
         else
-            $subject = 'Заказ с сайта ' . $_SERVER['HTTP_HOST'];
-        $message = 'Имя: '.$_POST['name']. ' <br> ' . 'Телефон: '.$_POST['phone']. ' <br> ';
+            $subject = 'Заказ с сайта ' . MAIN_DOMAIN;
+        $message = 'Товар: '.$_POST['item_name']. ' <br> ' .
+            'Имя: '.$_POST['name']. ' <br> ' .
+            'Телефон: '.$_POST['phone']. ' <br> ' .
+            'Цена: '.$_POST['item_price']. ' <br> ' .
+            'Часовой пояс: '.$_POST['client_time_zone']. ' <br> ';
 
         $headers  = 'MIME-Version: 1.0' . "\r\n";
         $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";

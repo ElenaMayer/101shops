@@ -57,6 +57,15 @@
   <script type="text/javascript">
    document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans:n7,n6,n4,n8:all;pt-sans:n4,i4:all;pt-sans-narrow:n4,n7:all;days-one:n4:all.js" type="text/javascript">\x3C/script>');
 </script>
+ <script>
+  $( document ).ready(function() {
+   currentClientDate = new Date();
+   currentTimeZoneOffsetInHours = -currentClientDate.getTimezoneOffset()/60;
+   $.each( $('.client_time_zone'), function() {
+    $(this).val(currentTimeZoneOffsetInHours);
+   });
+  });
+ </script>
    </head>
  <body>
 
@@ -642,6 +651,9 @@
            <input id="widgetu5108_input" class="wrapped-input" required name="phone" type="text"/></span>
           <!-- /m_editable -->
          </div>
+         <input name="item_name" value="Bianshi" type="hidden"/>
+         <input name="item_price" value="1860" type="hidden"/>
+         <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
          <input class="submit-btn NoWrap grpelem"   id="u5103-13" type="submit" value="" tabindex="20"/><!-- state-based BG images -->
         </form>
        </div>

@@ -16,6 +16,15 @@
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="js/lightbox.js"></script>
 	<script src="yved/script.js"></script>
+	<script>
+		$( document ).ready(function() {
+			currentClientDate = new Date();
+			currentTimeZoneOffsetInHours = -currentClientDate.getTimezoneOffset()/60;
+			$.each( $('.client_time_zone'), function() {
+				$(this).val(currentTimeZoneOffsetInHours);
+			});
+		});
+	</script>
 </head>
 <body>
 
@@ -52,6 +61,9 @@
 						<input type="submit" value="Заказать">
 					</div>
 
+					<input name="item_name" value="Ray Ban Aviator" type="hidden"/>
+					<input name="item_price" value="1590" type="hidden"/>
+					<input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
 				</form>
 
 				<div id="timer-box">
@@ -82,17 +94,17 @@
 					<div class="item">
 						<a class="rayban" href="catalog/b1.jpg" data-lightbox="Aviator 3025 001/51"><img src="catalog/1.png"></a>
 						<p class="bold px20 center title2">'Испепеляющий взгляд' синие</p>
-						<p class="center" style="padding-top: 10px;"><span class="lastprice light">5300 руб</span><span class="newprice bold px26">1.590 руб</span></p>
+						<p class="center" style="padding-top: 10px;"><span class="lastprice light">5300 руб</span><span class="newprice bold px26">1590 руб</span></p>
 					</div>
 					<div class="item">
 						<a class="rayban" href="catalog/b2.jpg" data-lightbox="Wayfarer 2140 901/32"><img src="catalog/2.png"></a>
 						<p class="bold px20 center title2">'Ослепительный взгляд' коричневые</p>
-						<p class="center" style="padding-top: 10px;"><span class="lastprice light">5300 руб</span><span class="newprice bold px26">1.590 руб</span></p>
+						<p class="center" style="padding-top: 10px;"><span class="lastprice light">5300 руб</span><span class="newprice bold px26">1590 руб</span></p>
 					</div>
 					<div class="item">
 						<a class="rayban" href="catalog/b3.jpg" data-lightbox="Aviator 3025 112/17"><img src="catalog/3.png"></a>
 						<p class="bold px20 center title2">'Обжигающий взгляд' оранжевые</p>
-						<p class="center" style="padding-top: 10px;"><span class="lastprice light">5300 руб</span><span class="newprice bold px26">1.590 руб</span></p>
+						<p class="center" style="padding-top: 10px;"><span class="lastprice light">5300 руб</span><span class="newprice bold px26">1590 руб</span></p>
 					</div>
 
 
@@ -118,7 +130,7 @@
 <div class="work_process">
 	<a name="work_process"><a/>
 		<div class="container">
-			<div class="title">Почему к нам обратились уже более 9.000 клиентов?</div>
+			<div class="title">Почему к нам обратились уже более 9 000 клиентов?</div>
 			<div class="sub_title">Быть нашим клиентом одно удовольствие! И вот почему:</div>
 			<div class="processes">
 				<div class="process">
@@ -230,7 +242,7 @@
 				</div>
 				<div class="text">
 					<div class="txt">
-						После того как разбились мои Ray Ban я была очень расстроена что придется покупать снова дорогие очки. Ведь они стоили мне почти 7.000 рублей. А тут еще и курс резко вырос и все подорожало. Случайно нашла этот магазин, решила заказать и не пожалела. Все что пишут насчет качества - абсолютная правда. И я не вижу разницы между теми оригиналами что я носила раньше.
+						После того как разбились мои Ray Ban я была очень расстроена что придется покупать снова дорогие очки. Ведь они стоили мне почти 7 000 рублей. А тут еще и курс резко вырос и все подорожало. Случайно нашла этот магазин, решила заказать и не пожалела. Все что пишут насчет качества - абсолютная правда. И я не вижу разницы между теми оригиналами что я носила раньше.
 					</div>
 					<div class="person">
 						Виктория Шатирова. Москва
@@ -311,6 +323,9 @@
 						</div>
 					</div>
 
+					<input name="item_name" value="Ray Ban Aviator" type="hidden"/>
+					<input name="item_price" value="1590" type="hidden"/>
+					<input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
 				</form>
 			</div>
 		</div>
@@ -357,6 +372,10 @@
 
 			</div>
 		</div>
+
+		<input name="item_name" value="Ray Ban Aviator" type="hidden"/>
+		<input name="item_price" value="1590" type="hidden"/>
+		<input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
 	</form>
 </div>
 

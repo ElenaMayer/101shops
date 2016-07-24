@@ -11,7 +11,6 @@ img { max-width:100%; }
 section { position:relative; }
 nav { border:0; }
 
-
 .navbar.active { background-color:#000; max-width:100%; }
 .navbar-brand { padding:0; margin:32px 115px 0 32px !important; height:30px; }
 .navbar-nav { margin:25px 0 0 15px; }
@@ -39,7 +38,7 @@ header .form_order { margin-top:95px; margin-bottom:75px; padding-bottom:20px; z
 header .best { color:#FFF; font-family:"Noto Sans"; font-weight:400; margin:0; }
 header .best .row div { min-height:50px; padding:67px 0 0; background:url(../img/0101.png) center top no-repeat; text-align:center; font-size:16px; }
 header .best .row div:last-child { background:url(../img/0102.png) center top no-repeat; }
-h1,h2,h3,h4,h5,h6,a,li { font-family:"Noto Serif"; color:#333; margin:0; padding:0; line-height:1.1!important; -moz-hyphens:manual!important; -webkit-hyphens:!important; -ms-hyphens:manual!important; }
+h1,h2,h3,h4,h5,h6,a,li { font-family:"Noto Serif"; color:#333; margin:0; padding:0; line-height:1.1!important; -moz-hyphens:manual!important; -ms-hyphens:manual!important; }
 p { line-height:1.1!important; }
 input[type="text"],input[type="email"],textarea,select { color:#000; font-family:"Roboto"; font-size:18px!important; font-weight:100; height:46px; background-color:#FFF; border:1px solid #B6B6B6!important; border-radius:0!important; margin:0 0 20px!important; padding:0 50px!important; width:100%; }
 select {width:100%;color:#000;font-family:"Roboto";font-size:18px!important;font-weight:100;margin:0 0 20px!important;background-size:auto;background-position:0 0;background-image:url(../img/fl01.png);background-repeat:no-repeat;-webkit-appearance: none;}
