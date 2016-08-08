@@ -1,0 +1,62 @@
+/* ::::: http://weide-m.shopsale.pro/style.css ::::: */
+
+* { margin: 0px; padding: 0px; }
+@font-face {
+	font-family: "helv-3-thin";
+	src: url('../fonts/helveticaneuecyr-thin.otf');
+}
+@font-face {
+	font-family: "helveticaneuecyr-italic";
+	src: url('../fonts/helveticaneuecyr-italic.otf');
+}
+@font-face {
+	font-family: "helveticaneuecyr-light";
+	src: url('../fonts/helveticaneuecyr-light.otf');
+}
+.top_block { background: black none repeat scroll 0% 0%; width: 100%; min-height: 407px; }
+.top_block_main { background: transparent url('../img/top-bg.jpg') repeat scroll 0% 0% / 580px 407px; width: 580px; min-height: 407px; margin: 0px auto; }
+.line-top { background: transparent url('../img/line-top.png') repeat scroll 0% 0%; height: 97px; width: 100%; margin-top: 15px; color: rgb(210, 153, 89); font-size: 36px; font-family: helv-3-thin; }
+.secencer { width: 560px; margin: 0px auto; padding-left: 10px; }
+.diam { color: white; font-family: helveticaneuecyr-light; font-size: 21px; line-height: 27px; }
+.diaTable tr td { vertical-align: top; }
+.makePre { font-family: helveticaneuecyr-light; color: black; font-size: 36px; margin: 30px 0px; display: block; }
+.watchTetx { font-size: 20px; color: black; font-family: helveticaneuecyr-light; margin-bottom: 23px; }
+.clickOrder { background: transparent url('../img/order.png') no-repeat scroll 0% 0%; height: 84px; width: 403px; margin: 0px auto; cursor: pointer; }
+.bgtr { background: transparent url('../img/bgtr.png') repeat scroll 0% 0%; width: 100%; min-height: 1095px; margin-top: 33px; }
+.ttt { background: transparent url('../img/888.png') repeat scroll 0% 0%; width: 100%; min-height: 640px; }
+.bgtr2 { background: transparent url('../img/bgtr2.png') no-repeat scroll 0% 0% / 130% auto; width: 100%; min-height: 734px; margin-top: 33px; }
+.lkl { padding-bottom: 10px; }
+.oredBlock { background: transparent url('../img/bggg.png') no-repeat scroll 0% 0%; width: 580px; height: 909px; }
+.oredBlock1 { background: transparent url('../img/bggg.png') no-repeat scroll 0% 0% / 1089px auto; width: 580px; }
+.centerBody { background: transparent url('../img/centerbody.png') repeat scroll 0% 0%; height: 907px; }
+.centerBody1 { background: transparent url('../img/centerbody.png') repeat scroll 0% 0%; height: 1028px; }
+.tbk777 tr td { width: 115px; text-align: center; }
+.otziv { font-size: 24px; color: black; font-family: helveticaneuecyr-light; }
+.otziv .name_ot, .otziv .text_ot { padding-bottom: 30px; }
+.inputText { width: 360px; font-size: 36px; font-family: helveticaneuecyr-light; color: black; margin-top: 24px; padding: 17px; border-radius: 10px; border: 3px solid white; outline: medium none; }
+.inputText:focus { border: 3px solid rgb(210, 153, 89); }
+.timer {  width: 580px; height: 87px; }
+/* ::::: http://weide-m.shopsale.pro/assets/countdown/jquery.countdown.css ::::: */
+
+.countdownHolder { width: 450px; margin: 0px auto; text-align: center; letter-spacing: -18px; font-size: 58px; font-family: helveticaneuecyr-light; }
+.position { display: inline-block; height: 1.6em; overflow: hidden; position: relative; width: 43px; }
+.digit { position: absolute; display: block; width: 43px; border-radius: 0.2em; text-align: center; color: rgb(214, 213, 213); letter-spacing: -1px; font-family: helveticaneuecyr-light; margin-top: 8px; }
+.digit.static {  }
+.countDays {  }
+.countDiv0 {  }
+.countHours {  }
+.countDiv1 {  }
+.countMinutes {  }
+.countDiv2 {  }
+.countSeconds {  }
+.countDays, .countHours, .countMinutes, .countSeconds { padding: 0px 13px; }
+.countDiv { width: 16px; height: 1.6em; position: relative; display: none; }
+.countDiv::before, .countDiv::after { position: absolute; width: 5px; height: 5px; border-radius: 50%; left: 50%; margin-left: -3px; top: 0.5em; box-shadow: 1px 1px 1px rgba(4, 4, 4, 0.5); content: ""; }
+.countDiv::after { top: 0.9em; }
+
+.footer_text {
+	padding: 30px;
+}
+.name_ot {
+	font-weight: 700;
+}
