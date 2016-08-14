@@ -376,7 +376,7 @@
             <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
         </form>
         <div class="footer_text" style="text-align: center;">
-            <?= REQUISITES ?>
+            <img src="<?= MAIN_DOMAIN ?>common/img/cop_g.png">
             <br><br>
             <a href="politics.html">Политика конфиденциальности </a></div>
     </section>

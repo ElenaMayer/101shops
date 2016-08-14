@@ -193,7 +193,7 @@
 </div>
 <div class="center" style="padding-bottom: 20px;">
     <div class="copyright">
-        <?= REQUISITES ?>
+        <img src="<?= MAIN_DOMAIN ?>common/img/cop_g.png">
         <a href="privacypolicy.html" class="policy" target="_blank">Политика конфиденциальности</a></div>
 </div>
 

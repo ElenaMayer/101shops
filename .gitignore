@@ -1,5 +1,6 @@
 #phpstorm project files
 .idea
+tmp
 error.log
 config.php
 index.php.template

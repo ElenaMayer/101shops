@@ -554,7 +554,7 @@
    </main>
 
    <footer>
-      <?= REQUISITES ?>
+      <img src="<?= MAIN_DOMAIN ?>common/img/cop_g.png">
       <p><a href="privacypolicy.html" target="_blank">Политика конфиденциальности</a></p>
    </footer>
 </body>

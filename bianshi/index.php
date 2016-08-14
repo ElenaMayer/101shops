@@ -710,7 +710,7 @@
       <div class="browser_width grpelem" id="u13219"><!-- group -->
        <div class="clearfix" id="u13219_align_to_page">
         <div class="clearfix grpelem" id="u13228-10"><!-- content -->
-         <p><?= REQUISITES ?></p>
+         <p><img src="<?= MAIN_DOMAIN ?>common/img/cop_w.png"></p>
          <p>Все права защищены. Copyright © 2016</p>
         </div>
         <div class="clearfix" id="u13247-4" onclick="showPrivacyPolicy()"><!-- content -->

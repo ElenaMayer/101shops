@@ -337,10 +337,11 @@
     <br>
     <div id="block_6">
         <div class="main">
-            <div style="float: left; padding-top: 4%; font-size: 90%; color: rgb(255, 218, 185);" align="left">
-                <?= REQUISITES ?><br>
+            <div style="float: left; padding-top: 4%; font-size: 90%; color: #fff;" align="left">
+                <img src="<?= MAIN_DOMAIN ?>common/img/cop_w.png">
+                <br>
                 Все права защищены. Copyright © 2016.<br>
-                <a style="color: rgb(255, 218, 185);" href="politika.html" target="new"><br>Политика конфиденциальности</a><br>
+                <a style="color: #fff;" href="politika.html" target="new"><br>Политика конфиденциальности</a><br>
             </div>
         </div>
         <div id="window">

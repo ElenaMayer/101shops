@@ -420,7 +420,7 @@
 		<footer>
 			<div class="footer">
 				<div class="footertxt4">
-					<p style="text-align: center;"><?= REQUISITES ?><br />
+					<p style="text-align: center;"><img src="<?= MAIN_DOMAIN ?>common/img/cop_w.png"><br />
 					<a href="#" modal="polit" >Политика конфиденциальности</a></p>
 				</div>
 				<div class="footer-zv"></div>
