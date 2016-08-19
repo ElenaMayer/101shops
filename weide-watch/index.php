@@ -374,6 +374,7 @@
             <input name="item_name" value="Weide mobile" type="hidden"/>
             <input name="item_price" value="2990" type="hidden"/>
             <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
+            <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
         </form>
         <div class="footer_text" style="text-align: center;">
             <img src="<?= MAIN_DOMAIN ?>common/img/cop_g.png">

@@ -654,6 +654,7 @@
          <input name="item_name" value="Bianshi" type="hidden"/>
          <input name="item_price" value="1860" type="hidden"/>
          <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
+         <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
          <input class="submit-btn NoWrap grpelem"   id="u5103-13" type="submit" value="" tabindex="20"/><!-- state-based BG images -->
         </form>
        </div>

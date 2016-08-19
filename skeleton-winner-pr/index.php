@@ -54,6 +54,7 @@
                 <input name="item_name" value="Skeleton Winner" type="hidden"/>
                 <input name="item_price" value="2390" type="hidden"/>
                 <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
+                <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
                 <input style="width:50%; padding:10px; margin-top:20px; margin-bottom:20px; cursor:pointer; background:#f1aa24;" name=" " value="ЗАКАЗАТЬ ПО СКИДКЕ" type="submit"  />
             </form>
             <p>ВНИМАНИЕ: количество акционного товара ограничено!</p>

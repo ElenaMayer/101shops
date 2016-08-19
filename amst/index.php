@@ -132,6 +132,8 @@
                     <input name="item_name" value="Amst" type="hidden"/>
                     <input name="item_price" value="2990" type="hidden"/>
                     <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
+                    <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
+
                     <input type="submit" value="ПЕРЕЗВОНИТЬ МНЕ" />
                 </form>
                 <p class="m1-form-clock">Оператор перезвонит Вам через 5-10 минут</p>

@@ -42,18 +42,13 @@
             <a href="#close" title="Закрыть" class="close">X</a>
             <h2 style="text-align:center; margin-top:15px; font-size:24px;">Заполните форму и мы Вам перезвоним</h2>
 
-            <form action="<?= MAIN_DOMAIN ?>order.php" method="POST" onsubmit="if(this.name.value==''){
-                    alert('Введите Ваше имя!');return false
-                }
-                if(this.phone.value==''){
-                    alert('Введите Ваш номер телефона!');return false
-                }
-                return true;">
+            <form action="<?= MAIN_DOMAIN ?>order.php" method="POST" onsubmit="if(this.name.value==''){alert('Введите Ваше имя!');return false} if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false} return true;">
                 <input style="width:75%; padding:10px;margin-bottom: 20px;" name="name" value="" type="text" placeholder="Введите Ваше Имя" />
                 <input style="width:75%; padding:10px;" name="phone" value="" type="text" placeholder="Введите Ваш Телефон" />
                 <input name="item_name" value="Skeleton Winner" type="hidden"/>
                 <input name="item_price" value="2390" type="hidden"/>
                 <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
+                <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
                 <input style="width:50%; padding:10px; margin-top:20px; margin-bottom:20px; cursor:pointer; background:#f1aa24;" name=" " value="ЗАКАЗАТЬ ПО СКИДКЕ" type="submit"  />
             </form>
             <p>ВНИМАНИЕ: количество акционного товара ограничено!</p>

@@ -80,6 +80,7 @@
                <input name="item_name" value="Wild Alligator" type="hidden"/>
                <input name="item_price" value="2490" type="hidden"/>
                <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
+               <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
                <button >Заказать</button>
             </div>
          </form>
@@ -132,6 +133,7 @@
                         <input name="item_name" value="Wild Alligator" type="hidden"/>
                         <input name="item_price" value="2490" type="hidden"/>
                         <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
+                        <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
                         <button>Заказать</button>
                      </div>
                   </form>
@@ -431,6 +433,7 @@
                         <input name="item_name" value="Wild Alligator" type="hidden"/>
                         <input name="item_price" value="2490" type="hidden"/>
                         <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
+                        <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
                         <button>Заказать</button>
                      </form>
                   </div>
@@ -544,6 +547,7 @@
                         <input name="item_name" value="Wild Alligator" type="hidden"/>
                         <input name="item_price" value="2490" type="hidden"/>
                         <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
+                        <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
                         <button class="minwid_small">Заказать</button>
                      </form>
                   </div>

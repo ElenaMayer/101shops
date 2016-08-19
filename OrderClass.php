@@ -15,10 +15,48 @@ class Order {
         }
         $orderId = date('YmdHis', time());
         $callMe = isset($_POST['callme']) ? '1' : '0';
-        if (!$mysqli->query(
-            "INSERT INTO `order`(`name`, `phone`, `item_name`, `order_id`, `item_price`, `time_zone`, `call_me`) 
-              VALUES ('" . $_POST['name']. "', '" . $_POST['phone']. "', '" . $_POST['item_name']. "', '" .  $orderId. "', '" . $_POST['item_price']. "', '" . $_POST['client_time_zone']. "', '" . $callMe. "')"
-        )) {
+        $queryKey = "`name`, `phone`, `item_name`, `order_id`, `item_price`, `time_zone`, `call_me`";
+        $queryValue = "'" .
+            $_POST['name']. "', '" .
+            $_POST['phone']. "', '" .
+            $_POST['item_name']. "', '" .
+            $orderId. "', '" .
+            $_POST['item_price']. "', '" .
+            $_POST['client_time_zone']. "', '" .
+            $callMe. "'";
+
+        if (isset($_POST['utm'])) {
+            $utmStr = explode(",", $_POST['utm']);
+            $utmArr = [];
+            foreach ($utmStr as $utmVal){
+                $tmp = explode("=", $utmVal);
+                $utmArr[$tmp[0]] = $tmp[1];
+            }
+            if(isset($utmArr['utm_source'])) {
+                $queryKey .= ", `utm_source`";
+                $queryValue .= ", '" . $utmArr['utm_source'] . "'";
+            }
+            if(isset($utmArr['utm_medium'])) {
+                $queryKey .= ", `utm_medium`";
+                $queryValue .= ", '" . $utmArr['utm_medium'] . "'";
+            }
+            if(isset($utmArr['utm_campaign'])) {
+                $queryKey .= ", `utm_campaign`";
+                $queryValue .= ", '" . $utmArr['utm_campaign'] . "'";
+            }
+            if(isset($utmArr['utm_term'])) {
+                $queryKey .= ", `utm_term`";
+                $queryValue .= ", '" . $utmArr['utm_term'] . "'";
+            }
+            if(isset($utmArr['utm_content'])) {
+                $queryKey .= ", `utm_content`";
+                $queryValue .= ", '" . $utmArr['utm_content'] . "'";
+            }
+        }
+
+        $query = "INSERT INTO `order`(" . $queryKey . ") VALUES ( $queryValue )";
+
+        if (!$mysqli->query($query)) {
             error_log($date . " Не удалось записать в БД: (" . $mysqli->errno . ") " . $mysqli->error."\r\n", 3, 'error.log');
             $mysqli->close();
             return false;
