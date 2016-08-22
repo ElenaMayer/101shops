@@ -130,7 +130,7 @@
 
                     <input type="hidden" name="callme" value="1" />
                     <input name="item_name" value="Amst" type="hidden"/>
-                    <input name="item_price" value="2990" type="hidden"/>
+                    <input name="item_price" value="2490" type="hidden"/>
                     <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
                     <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
 
@@ -158,12 +158,12 @@
             <h1 class="heading--header">AMST</h1>
             <h2 class="subtitle">АРМЕЙСКАЯ НАДЕЖНОСТЬ</h2>
             <div class="header__prices">
-                <div class="price--old">10680р.</div>
-                <div class="price--new">2990р.</div>
+                <div class="price--old">8300р.</div>
+                <div class="price--new">2490р.</div>
             </div><a href="#scroll-buy" title="Сделать заказ" class="button button--header">Сделать заказ</a>
         </div>
         <div class="header__other">
-            <div class="discount--header">72</div>
+            <div class="discount--header">70</div>
             <div class="product-photo"><img src="images/product2.png" alt="часы AMST"></div>
             <div class="discount--title"><span>Осталось 5шт. со скидкой!</span></div>
         </div>
@@ -409,8 +409,8 @@
                 </div>
                 <div class="buy__form">
                     <div class="form__price">
-                        <div class="price--old">10680р.</div>
-                        <div class="price--new">2990р.</div>
+                        <div class="price--old">8300р.</div>
+                        <div class="price--new">2490р.</div>
                     </div>
                     <form class="form__inputs" action="<?= MAIN_DOMAIN ?>order.php" method="post" onsubmit="if(this.name.value==''){alert('Введите Ваше имя');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона');return false}return true;">
                         <input class="form__input" type="text" name="name" placeholder="Введите Ф.И.О" required=""><br>
@@ -419,7 +419,7 @@
                             <input type="submit" value="Заказать со скидкой" class="button form__submit">
                         </div>
                         <input name="item_name" value="Amst" type="hidden"/>
-                        <input name="item_price" value="2990" type="hidden"/>
+                        <input name="item_price" value="2490" type="hidden"/>
                         <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
                         <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
                     </form>
@@ -427,7 +427,7 @@
             </div>
         </div>
         <div class="buy-other">
-            <div class="discount--buy">72</div>
+            <div class="discount--buy">70</div>
             <div class="buy-product-photo"><img src="images/product2.png" alt="часы AMST"></div>
             <div class="buy-discount-title"><span>Осталось 5шт. со скидкой!</span></div>
         </div>

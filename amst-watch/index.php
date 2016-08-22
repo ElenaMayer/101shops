@@ -19,7 +19,6 @@
     <script type="text/javascript" src="../infocdn-test.com/files/_js/ab.min.js"></script>
     <script type="text/javascript" src="files/_js/timer.js"></script>
     <script type="text/javascript" src="files/amst_mobile/js/script1679.js?6"></script>
-    <script type="text/javascript">$jsonData = {"product":{"id":973,"name":"Армейские наручные часы AMST","title":"Армейские наручные часы AMST","short_description":"AMST - олицетворение статуса и успеха, чувства стиля и вкуса, оригинальности и самодостаточности.","full_description":"Часы Amst - новинка среди ударопрочных часов, которые выдержат самое агрессивное воздействие! Эти часы сделаны из современных сверхпрочных материалов по специальной технологии и готовы к любой нагрузке, а уникальный дизайн позволит носить их когда и где угодно, будь то офис или вечеринка, конференция или же нереальный экстрим!"},"prices":{"270":{"price":1190,"old_price":2380,"delivery_price":0,"tax_price":0,"upsale_price":0,"geo_key":"UA","name":"Украина","currency":"грн.","rate":0.37,"phone_template":"+38 067 927 25 74","address_template":"01024, г. Киев, ул. Богомольца, д.5, кв.9","name_template":"Карпенко Ярослав Федорович","active":false},"271":{"price":2990,"old_price":5980,"delivery_price":0,"tax_price":0,"upsale_price":0,"geo_key":"RU","name":"Россия","currency":"руб.","rate":1,"phone_template":"+7 928 827-22-53","address_template":"135999, Москва, ул. Ленина, д.10, кв.5","name_template":"Петров Петр Петрович","active":true},"357":{"price":80,"old_price":160,"delivery_price":0,"tax_price":0,"upsale_price":0,"geo_key":"BY","name":"Беларусь","currency":"бел. руб.","rate":0.032,"phone_template":"+37 529 186 24 65","address_template":"220035, г. Минск, пр-т Машерова, д. 76, кв. 17","name_template":"Матвеев Евгений Алексеевич","active":false}},"lowPrice":{"year":"2016","month":"08","day":"10"}};</script>
     <script>
         $( document ).ready(function() {
             currentClientDate = new Date();
@@ -29,6 +28,9 @@
             });
         });
     </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter39181450 = new Ya.Metrika({ id:39181450, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/39181450" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body>
 <script type="text/javascript">
@@ -59,10 +61,10 @@
 
 <div class="main-wrap">
     <div class="section block-1">
-        <span class="sale">-72%</span>
+        <span class="sale">-70%</span>
         <div class="cost">
-            <div class="old-cost col-2">10679 руб.</div>
-            <div class="new-cost col-1">2990 руб.</div>
+            <div class="old-cost col-2">8300 руб.</div>
+            <div class="new-cost col-1">2490 руб.</div>
         </div>
         <div class="timer">
             <p class="center">До конца акции осталось:</p>
@@ -132,8 +134,8 @@
         </div>
         <br>
         <div class="cost clearfix">
-            <div class="old-cost">10679 руб.</div>
-            <div class="new-cost col-1">2990 руб.</div>
+            <div class="old-cost">8300 руб.</div>
+            <div class="new-cost col-1">2490 руб.</div>
         </div>
         <div class="center"><a href="#order" class="button">Заказать со скидкой</a></div>
     </div>
@@ -176,17 +178,17 @@
     </div>
     <div class="order" id="order">ОСТАВЬТЕ ЗАЯВКУ &nbsp; &#9200;<br/><small>и наши менеджеры свяжутся с вами в ближайшее время</small></div>
     <div class="section block-1 end">
-        <span class="sale">-72%</span>
+        <span class="sale">-70%</span>
         <div class="cost">
-            <div class="old-cost col-2">10679 руб.</div>
-            <div class="new-cost col-1">2990 руб.</div>
+            <div class="old-cost col-2">8300 руб.</div>
+            <div class="new-cost col-1">2490 руб.</div>
         </div>
         <form action="<?= MAIN_DOMAIN ?>order.php" method="post" class="orderformcdn">
             <div><input type="text" name="name" placeholder="Введите Ф.И.О" required=""></div>
             <div><input type="text" name="phone" placeholder="Введите телефон" required=""></div>
             <div><button class="button">Заказать со скидкой</button></div>
             <input name="item_name" value="Amst mobile" type="hidden"/>
-            <input name="item_price" value="2990" type="hidden"/>
+            <input name="item_price" value="2490" type="hidden"/>
             <input name="client_time_zone" class="client_time_zone" value="" type="hidden"/>
             <input name="utm" value='<?= isset($_GET)?implode(',', array_map(function ($v, $k) {if(is_array($v)){return $k.'[]='.implode('&'.$k.'[]=', $v);}else{return $k.'='.$v;}},$_GET,array_keys($_GET))):'' ?>' type="hidden"/>
         </form>
